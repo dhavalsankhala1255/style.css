@@ -731,6 +731,8 @@ textarea.form-control {
 
 @media only screen and (max-width: 1023px) {}
 
+/*--------- slick--slider ---------*/
+
 
 .socks__slider .slick-prev {
     background-image: url(../images/arrow-prev.png);
@@ -762,4 +764,31 @@ textarea.form-control {
     content: "";
     color: #000;
     font-size: 50px;
+}
+
+
+.app__slider .slick-dots {
+    bottom: -50px;
+}
+
+.app__slider .slick-dots li {
+    height: 10px;
+    width: 10px;
+}
+
+.app__slider .slick-dots li button {
+    padding: 0;
+    border-radius: 100%;
+    border: 1px solid #f45162;
+    height: 10px;
+    width: 10px;
+}
+
+.app__slider .slick-dots .slick-active {
+    background-color: #f45162;
+    border-radius: 100%;
+}
+
+.app__slider .slick-dots li button:before {
+    display: none;
 }
