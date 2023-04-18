@@ -730,3 +730,36 @@ textarea.form-control {
 /*--------- Responsive ---------*/
 
 @media only screen and (max-width: 1023px) {}
+
+
+.socks__slider .slick-prev {
+    background-image: url(../images/arrow-prev.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 10px;
+    right: 70px;
+    top: -55px;
+    left: auto;
+}
+
+.socks__slider .slick-next {
+    background-image: url(../images/arrow-next.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 10px;
+    right: 25px;
+    top: -55px;
+    left: auto;
+}
+
+.socks__slider .slick-prev:before {
+    content: "";
+    color: #000;
+    font-size: 50px;
+}
+
+.socks__slider .slick-next:before {
+    content: "";
+    color: #000;
+    font-size: 50px;
+}
