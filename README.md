@@ -792,3 +792,22 @@ textarea.form-control {
 .app__slider .slick-dots li button:before {
     display: none;
 }
+
+
+accordians: function() {
+                if (jQuery(".accordian__block").length === 0) {
+                    return false;
+                }
+                $(".accordian__block h4").click(function() {
+                    if ($(this).hasClass("active")) {
+                        $(this).removeClass('active')
+                        $(this).next().slideUp();
+                    } else {
+                        $('.accordian__content').slideUp();
+                        $('.accordian__block h4').removeClass('active');
+                        $(this).next().slideDown();
+                        $(this).toggleClass('active');
+                    }
+                    return false;
+                });
+            },
