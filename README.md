@@ -821,3 +821,48 @@ accordians: function() {
         	</div>
 	</div>
 </div>
+
+.accordian__block {
+    padding-top: 38px;
+    border-bottom: 1px solid #707070;
+}
+
+.accordian__block h4 {
+    position: relative;
+    cursor: pointer;
+}
+
+.accordian__block h4::before,
+.accordian__block h4:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+}
+
+.accordian__block h4::before {
+    height: 10px;
+    right: 0;
+    top: 0;
+    border-bottom: 3px solid #1D1D1D;
+}
+
+.accordian__block h4:after {
+    height: 25px;
+    right: 11px;
+    top: -4px;
+    border-right: 3px solid #1D1D1D;
+}
+
+.accordian__block .active:after {
+    display: none;
+}
+
+.accordian__content {
+    display: none;
+    font-weight: normal;
+    padding-bottom: 38px;
+}
+
+.accordian__content ul li {
+    margin-left: 40px;
+}
