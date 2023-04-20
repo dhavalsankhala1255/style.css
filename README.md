@@ -811,3 +811,13 @@ accordians: function() {
                     return false;
                 });
             },
+
+
+<div class="work__que">
+        <div class="accordian__block">
+                <h6>How this work?</h6>
+                <div class="accordian__content">
+                	<p>Yet bed any for assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.</p>
+        	</div>
+	</div>
+</div>
